@@ -2,9 +2,9 @@
 
 namespace DotNet6Identity.Controllers
 {
-    public class LoginController : Controller
+    public class UserAuthenticationController : Controller
     {
-        public IActionResult Index()
+        public IActionResult Login()
         {
             return View();
         }
